@@ -3,6 +3,6 @@ services:
         container_name: api
         build:
             dockerfile: Dockerfile-compose
-            context: https://github.com/acnodu/test-portainer
+            context: https://acnodu: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@github.com/acnodu/test-portainer
         ports:
             - "8001:8001"
