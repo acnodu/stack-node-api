@@ -8,3 +8,6 @@ services:
         stdin_open: true
         ports:
             - "8001:8001"
+        environment:
+            - SSH_AUTH_SOCK=/ssh-agent
+            - SSH_KNOWN_HOSTS=/root/.ssh/known_hosts
