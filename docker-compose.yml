@@ -4,6 +4,5 @@ services:
         build:
             dockerfile: Dockerfile-compose
             context: https://github.com/acnodu/test-portainer
-        stdin_open: true
         ports:
             - "8001:8001"
