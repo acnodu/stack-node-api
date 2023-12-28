@@ -2,7 +2,7 @@ services:
     testage:
         container_name: api
         build:
-            dockerfile: docker-compose
+            dockerfile: docker-compose.yml
             context: https://acnodu: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@github.com/acnodu/test-portainer.git
         image: acnodu/test-portainer
         ports:
