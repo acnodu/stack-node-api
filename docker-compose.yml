@@ -1,0 +1,10 @@
+services:
+    testage:
+        container_name: api
+        build:
+            dockerfile: Dockerfile-compose
+            context: git@github.com:acnodu/test-portainer.git
+            ssh: ["default"]
+        stdin_open: true
+        ports:
+            - "8001:8001"
